@@ -76,7 +76,7 @@ app.controller('projects-controller', ['$scope', function($scope) {
         github: 'https://github.com/vince-xie/Cache-Simulator',
         desc: 'An intro to computer science textbook that I contributed to writing. This textbook will supplement the intro courses offered at codehs.com.',
         link: 'http://codehs.gitbooks.io/introcs/content/'
-      },
+      }
     ];
   $scope.hasDemo = function(project){
     if (project.link == ''){
