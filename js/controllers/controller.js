@@ -60,6 +60,12 @@ app.controller('projects-controller', ['$scope', function($scope) {
         link: 'http://www.vincentxie.com/'
       },
       {
+        name: 'College Costs',
+        github: 'https://github.com/vince-xie/College-Costs',
+        desc: 'Website that allows prospective students to learn about the cost of attending certain universities. Also scores colleges based on their return on investment.',
+        link: ''
+      },
+      {
         name: 'Gem Reader',
         github: 'https://github.com/vince-xie/Jem-Reader',
         desc: 'Android application that lets you read and get updates about all your favorite books. Get updates as new chapters come out! Written in Java.',
